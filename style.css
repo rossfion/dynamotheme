@@ -1,0 +1,178 @@
+/*
+Theme Name: Dynamo Theme
+Text Domain: dynamotheme
+Version: 1.0
+Requires at least: 4.5.2
+Requires PHP: 5.2.4
+Description: A theme built with Gridism.css, Unslider.css, FontAwesome and JQuery as part of a course on Eduonix.com, courtesy of Brad Traversy of Traversy Media.
+Author: Fionn Ross
+Author URI: https://fionnrossonline.com/
+Theme URI: https://github.com/rossfion/dynamotheme/
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+All files, unless otherwise stated, are released under the GNU General Public
+License version 2.0 (http://www.gnu.org/licenses/gpl-2.0.html)
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned
+with others.
+*/
+@import "https://fonts.googleapis.com/css?family=Droid+Sans";
+
+body {
+	font-family: 'Droid Sans', serif;
+	line-height: 1.7em;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	padding: 0;
+	margin: 0;
+}
+
+input[type="text"]{
+	padding: 5px;
+	border: 1px #ccc solid;
+	min-width: 250px;
+}
+
+header {
+	padding: 10px 0;
+}
+
+header .logo {
+	margin: 0 0 10px 0;
+	padding: 0;
+}
+
+header p.tagline {
+	margin: 0;
+	padding: 0;
+	color: #aaa;
+}
+
+header .header_r {
+	float: right;
+	padding-top: 10px;
+}
+
+.main-nav {
+	padding: 15px 0;
+}
+
+.main-nav li {
+	list-style: none;
+	float: left;
+	display: inline;
+}
+
+.main-nav a {
+	padding: 15px;
+	text-decoration: none;
+}
+
+.main-nav a:hover {
+	color: #000;
+}
+
+.showcase {
+	height: auto;
+	margin-bottom: 20px;
+}
+
+.showcase img {
+	width: 100%
+}
+
+.caption {
+	padding: 15px;
+	margin-top: -10px;
+}
+
+.caption h2 {
+	margin: 0;
+	padding: 0 0 10px 0;
+	border-bottom: 1px solid #666;
+}
+
+.unslider-arrow {
+	margin-top: -350px;
+	color: #fff;
+}
+
+.unslider-arrow .fa {
+	font-size: 45px;
+	opacity: 0.3;
+}
+
+.unslider-nav {
+	margin-top: 15px;
+}
+
+.post-wrap {
+	padding: 10px;
+	border-radius: 10px;
+	margin-top: 30px;
+	overflow: auto;
+}
+
+.post {
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	overflow: auto;
+}
+
+.post-thumb img {
+	height: auto;
+}
+
+.button {
+	display: inline-block;
+	padding: 10px 20px;
+	border: 1px solid #232323;
+}
+
+.button:hover {
+	color: #000;
+}
+
+footer {
+	text-align: center;
+	padding: 20px;
+	margin-top: 20px;
+}
+
+.bar {
+	color: #000;
+	padding: 20px 0;
+	margin-bottom: 20px;
+}
+
+.bar h1 {
+	margin: 0 0 0 10px;
+	padding: 0;
+}
+
+.sidebar-widget {
+	margin-left: 40px;
+	margin-bottom: 30px;
+}
+
+.sidebar-widget ul {
+	margin:0;
+	padding: 0;
+	list-style: none;
+}
+
+.sidebar-widget li {
+	line-height: 2.2em;
+	border-bottom: 1px solid #666;
+}
+
+.current-page-item a {
+	color: #000;
+}
