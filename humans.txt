@@ -2,5 +2,5 @@ Amarindaz on YouTube - I needed a reminder
 
 https://www.youtube.com/watch?v=2vASHVT0qKc
 
-
+Slideshow guitar images come courtesy of David Connelly (of Codeigniter fame, and now Trongate), when he did a YouTube course on how to build an online shop with Codeigniter.
 
